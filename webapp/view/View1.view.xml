@@ -1,0 +1,49 @@
+<mvc:View controllerName="sample.SVM.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:svmTable="sample.SVM.control.SVMTable" xmlns:smartv="sap.ui.comp.smartvariants">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<svmTable:SVMTable id="svmTable" persistencyKey="sample.SVM.View1.Table">
+							<svmTable:headerToolbar>
+								<OverflowToolbar>
+									<smartv:SmartVariantManagement id="smartVariantManagement"/>
+									<ToolbarSpacer/>
+									<Button icon="sap-icon://action-settings" id="p13nTableSettings"/>
+								</OverflowToolbar>
+							</svmTable:headerToolbar>
+							<svmTable:columns>
+								<Column id="column1">
+									<Text text="{i18n>column1}"/>
+								</Column>
+								<Column id="column2">
+									<Text text="{i18n>column2}"/>
+								</Column>
+								<Column id="column3">
+									<Text text="{i18n>column3}"/>
+								</Column>
+							</svmTable:columns>
+							<svmTable:items>
+								<ColumnListItem>
+									<cells>
+										<Text text="Row1-Column1"/>
+										<Text text="Row1-Column2"/>
+										<Text text="Row1-Column3"/>
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text text="Row2-Column1"/>
+										<Text text="Row2-Column2"/>
+										<Text text="Row2-Column3"/>
+									</cells>
+								</ColumnListItem>
+							</svmTable:items>
+						</svmTable:SVMTable>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
