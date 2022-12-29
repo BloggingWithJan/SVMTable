@@ -94,9 +94,5 @@
 				}
 			}
 		}
-	},
-	"sap.platform.abap": {
-		"uri": "/sap/bc/ui5_ui5/sap/zjsz_svm_sample/webapp",
-		"_version": "1.1.0"
 	}
 }
