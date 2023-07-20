@@ -1,4 +1,4 @@
 # SVMTable
 
 ## Infos
-https://bloggingwithjan.com/sap-m-table-with-smartvariantmanagement-functionality/
+https://janschulz.info/sap-ui5/sap-m-table-with-smartvariantmanagement-functionality/
